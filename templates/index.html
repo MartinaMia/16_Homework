@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <p>Hello, index.html here!</p>
+    <p>{{some_text}}</p>
+    <p>Current year: {{current_year}}</p>
+{% endblock content %}
+
+{% block content2 %}
+    <p>Hello, choose a link: </p>
+
+    <a href="/about-me" target="_blank"> about-me </a>
+    <p></p>
+    <a href="/portfolio" target="_blank"> my portfolio </a>
+
+{% endblock content2 %}

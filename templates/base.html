@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartNinja with Jinja</title>
+
+    {% block title %}{% endblock title %}
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+
+    <body>
+        <h1>Let's try out Jinja!</h1>
+
+        {% block content %}{% endblock content %}
+
+        <p>This text is between the contents</p>
+
+        {% block content2 %}{% endblock content2 %}
+
+    </body>
+</html>

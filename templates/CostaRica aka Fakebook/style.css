@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to bottom, pink, white 80%, orange)
+}
+
+.violet{
+    color: violet
+    }
+
+.blue{
+    color: blue;
+}
+
+.yellow{
+    color: yellow;
+    }
+.yellow:hover{
+    color: orange;
+    }
+
+
+.flag {
+    margin-top: 10px;
+    margin-left: 200px;
+    }
+
+.Beach {
+  border: 6px yellow dotted;
+  padding: 5px;
+}
+
+.Beach:hover {
+  border: 6px orange dotted;
+}
